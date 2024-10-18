@@ -22,7 +22,7 @@ const Navbar = () => {
             <ul className="flex h-full w-full items-center justify-between gap-[46px]
                 text-[#000000] text-[22px] font-medium text-wrap cursor-pointer hover:text-[#B88E2F]">
                 {
-                    navItems.map((item)=><li>{item.title}</li>)
+                    navItems.map((item, index)=><li key={index}>{item.title}</li>)
                 }
             </ul>
         </nav>
