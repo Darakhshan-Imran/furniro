@@ -6,12 +6,12 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 
 const Carousel = () => {
   const slides = [
-    '/products/slider 1.jpg',  
-    '/products/slider 2.jpg',  
-    '/products/slider 3.jpg',  
-    '/products/slider 4.jpg',
-    '/products/image 3.jpg',
-    '/products/image 4.jpg',
+    '/products/slider1.jpg',  
+    '/products/slider2.jpg',  
+    '/products/slider3.jpg',  
+    '/products/slider4.jpg',
+    '/products/image3.jpg',
+    '/products/image4.jpg',
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

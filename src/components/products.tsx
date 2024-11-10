@@ -11,7 +11,7 @@ const OurProducts = () => {
      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 mt-10 gap-2 sm:gap-3 md:gap-4'>
       
         <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/image 1.jpg" alt="image1"
+        <Image src="/products/image1.jpg" alt="image1"
         width={285}
         height={301}/>
 
@@ -21,7 +21,7 @@ const OurProducts = () => {
       </div>
 
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/images 2.jpg" alt="image2"
+        <Image src="/products/image2.jpg" alt="image2"
         width={285}
         height={301}/>
 
@@ -31,7 +31,7 @@ const OurProducts = () => {
       </div>
 
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/image 3.jpg" alt="image3"
+        <Image src="/products/image3.jpg" alt="image3"
         width={285}
         height={301}/>
 
@@ -41,7 +41,7 @@ const OurProducts = () => {
       </div>
 
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/image 4.jpg" alt="image4"
+        <Image src="/products/image4.jpg" alt="image4"
         width={285}
         height={301}/>
 
@@ -53,7 +53,7 @@ const OurProducts = () => {
 
       
         <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/images 5.jpg" alt="image5"
+        <Image src="/products/image5.jpg" alt="image5"
         width={285}
         height={301}/>
 
@@ -63,7 +63,7 @@ const OurProducts = () => {
       </div>
 
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/images 6.jpg" alt="image6"
+        <Image src="/products/image6.jpg" alt="image6"
         width={285}
         height={301}/>
 
@@ -73,7 +73,7 @@ const OurProducts = () => {
       </div>
 
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/images 7.jpg" alt="image7"
+        <Image src="/products/image7.jpg" alt="image7"
         width={285}
         height={301}/>
 
@@ -83,7 +83,7 @@ const OurProducts = () => {
       </div>
 
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-        <Image src="/products/images 8.jpg" alt="image8"
+        <Image src="/products/image8.jpg" alt="image8"
         width={285}
         height={301}/>
 
