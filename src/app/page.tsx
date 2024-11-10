@@ -5,18 +5,17 @@ import ProductsRange from "@/components/range";
 import OurProducts from "@/components/products";
 import Inspiration from "@/components/inspiration";
 import Setup from "@/components/setup";
-import Footer from "@/components/footer";
+
 
 
 export default function Home() {
   return (
-   <div>
+    <div className="overflow-x-hidden w-full">
     <Hero/>
     <ProductsRange/>
     <OurProducts/>
     <Inspiration/>
     <Setup/>
-    <Footer/>
    </div>
   );
 }

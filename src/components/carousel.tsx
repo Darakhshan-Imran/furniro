@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 
 const Carousel = () => {
   const slides = [
@@ -59,19 +60,18 @@ const Carousel = () => {
       </div>
 
       {/* Left and Right navigation */}
-      <button
-        onClick={handlePrev}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 z-20"
-      >
-        Prev
-      </button>
-      <button
-        onClick={handleNext}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full
-         hover:bg-gray-600 z-20"
-      >
-        Next
-      </button>
+    <button
+      onClick={handlePrev}
+      className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 z-20"
+>
+    <ChevronLeftIcon className="w-6 h-6" />
+    </button>
+    <button
+      onClick={handleNext}
+      className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 z-20"
+>
+      <ChevronRightIcon className="w-6 h-6" />
+    </button>
 
       {/* Dots */}
       <div className="flex justify-center mt-4">

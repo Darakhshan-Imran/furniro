@@ -3,12 +3,13 @@ import Image from 'next/image'
 
 const OurProducts = () => {
   return (
-    <section className='h-[1084px] w-[1250px] mt-30 sm:px-4 md:px-8 lg:mx-auto xl:px-4 '>
-      <div className='flex flex-col-4 justify-center mt-20'>
-        <h1 className=' font-bold text-4xl font-[#3A3A3A] py-2 mt-10'>OUR PRODUCTS</h1>
+    <section className='h-full sm:h-[1084px] w-full mt-30 flex flex-col justify-center items-center'>
+      <div className='flex justify-center mt-20'>
+        <h1 className=' font-bold text-xl sm:text-2xl md:text-4xl lg:text-4xl font-[#3A3A3A] py-2 mt-10'>OUR PRODUCTS</h1>
       </div>
 
-      <div className='flex flex-col-4 justify-center items-center gap-4 h-[446px] w-[1236px] px-2 mt-10'>
+     <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 mt-10 gap-2 sm:gap-3 md:gap-4'>
+      
         <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
         <Image src="/products/image 1.jpg" alt="image1"
         width={285}
@@ -48,9 +49,9 @@ const OurProducts = () => {
         <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Center table and Six seater sofa</p>
         <p className='flex justify-start text-[#3A3A3A] font-semibold text-l mx-3 p-2'>Rs 500,000 </p>
       </div>
-      </div>
+      
 
-      <div className='flex flex-col-4 justify-center items-center gap-4 h-[446px] w-[1236px] px-2 mt-6'>
+      
         <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
         <Image src="/products/images 5.jpg" alt="image5"
         width={285}
@@ -90,12 +91,12 @@ const OurProducts = () => {
         <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Comfy two seater</p>
         <p className='flex justify-start text-[#3A3A3A] font-semibold text-l mx-3 p-2'>Rs 500,000</p>
       </div>
-      </div>
-        
-      <div className='flex justify-center items-center mt-8'>
+  
+      <div className='flex items-center mt-8'>
         <button className='flex items-center justify-center py-3 my-2 w-[245px] h-[48px] text-[#B88E2F] bg-[#FFFFFF] border-2 border-[#B88E2F] hover:bg-[#B88E2F] hover:text-[#FFFFFF]'>SHOW MORE</button>
       </div>
-
+      </div>
+   
     </section>
   )
 }
