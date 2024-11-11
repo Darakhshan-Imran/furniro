@@ -21,10 +21,10 @@ const Shop = () => {
     </div>
   </div>
 
-  <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3 md:gap-4 mt-[3rem] sm:[4rem] md:mt[5rem] lg:mt-[7rem] space-x-0'>
+  <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3 md:gap-4 mt-[3rem] sm:mt-[4rem] md:mt-[5rem] lg:mt-[7rem] space-x-0 mx-16'>
       
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image1.jpg" alt="image1"
+      <Image src="/image1.jpg" alt="image1"
       width={285}
       height={301}/>
 
@@ -34,9 +34,10 @@ const Shop = () => {
     </div>
 
     <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image2.jpg" alt="image2"
+      <Image src="/image2.jpg" alt="image2"
       width={285}
-      height={301}/>
+      height={301}
+      />
 
     <p className='flex justify-start text-[#3A3A3A] font-semibold text-xl mt-5 mx-3 p-2'>Leviosa</p>
       <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Stylish cafe chair</p>
@@ -44,9 +45,10 @@ const Shop = () => {
     </div>
 
     <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image3.jpg" alt="image3"
+      <Image src="/image3.jpg" alt="image3"
       width={285}
-      height={301}/>
+      height={301}
+     />
 
       <p className='flex justify-start text-[#3A3A3A] font-semibold text-xl mt-5 mx-3 p-2'>Lolito</p>
       <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Luxury big sofa</p>
@@ -54,21 +56,21 @@ const Shop = () => {
     </div>
 
     <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image4.jpg" alt="image4"
+      <Image src="/image4.jpg" alt="image4"
       width={285}
-      height={301}/>
+      height={301}
+      />
 
       <p className='flex justify-start text-[#3A3A3A] font-semibold text-xl mt-5 mx-3 p-2'>Respira</p>
       <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Center table and Six seater sofa</p>
       <p className='flex justify-start text-[#3A3A3A] font-semibold text-l mx-3 p-2'>Rs 500,000 </p>
     </div>
     
-
-    
       <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image5.jpg" alt="image5"
+      <Image src="/image5.jpg" alt="image5"
       width={285}
-      height={301}/>
+      height={301}
+      />
 
       <p className='flex justify-start text-[#3A3A3A] font-semibold text-xl mt-5 mx-3 p-2'>Grifo</p>
       <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Night lamp</p>
@@ -76,9 +78,10 @@ const Shop = () => {
     </div>
 
     <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image6.jpg" alt="image6"
+      <Image src="/image6.jpg" alt="image6"
       width={285}
-      height={301}/>
+      height={301}
+      />
 
       <p className='flex justify-start text-[#3A3A3A] font-semibold text-xl mt-5 mx-3 p-2'>Greyno</p>
       <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Lounge sofa</p>
@@ -86,9 +89,10 @@ const Shop = () => {
     </div>
 
     <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image7.jpg" alt="image7"
+      <Image src="/image7.jpg" alt="image7"
       width={285}
-      height={301}/>
+      height={301}
+     />
 
       <p className='flex justify-start text-[#3A3A3A] font-semibold text-xl mt-5 mx-3 p-2'>Comforty</p>
       <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Luxury comfortable sofa</p>
@@ -96,9 +100,10 @@ const Shop = () => {
     </div>
 
     <div className='w-[285px] h-[450px]  bg-[#F4F5F7]'>
-      <Image src="/products/image8.jpg" alt="image8"
+      <Image src="/image8.jpg" alt="image8"
       width={285}
-      height={301}/>
+      height={301}
+      />
 
       <p className='flex justify-start text-[#3A3A3A] font-semibold text-xl mt-5 mx-3 p-2'>Choco</p>
       <p  className=' text-[#3A3A3A] font-medium mx-3 p-2'>Comfy two seater</p>

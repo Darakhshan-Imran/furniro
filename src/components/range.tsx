@@ -47,4 +47,3 @@ const ProductsRange = () => {
 
 export default ProductsRange
 
-//<section className='h-[685px] w-[1183px] mx-6 mt-28 bg-white sm:px-4 md:px-8 lg:mx-auto xl:px-4'>
