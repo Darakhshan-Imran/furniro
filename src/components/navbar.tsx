@@ -18,7 +18,8 @@ import {
 
 const Navbar = () => {
   return (
-    <header className="flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[140px] bg-[#FFFFFF] mx-6 sm:px-4 md:px-8 lg:mx-auto xl:px-4 py-4">
+    <header className="flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[140px] bg-[#FFFFFF] mx-auto w-full p-5">
+     
   
     {/* Logo and Title */}
     <div className="flex items-center space-x-2">
@@ -48,7 +49,7 @@ const Navbar = () => {
           alt={icon.alt}
           width={icon.width}
           height={icon.height}
-          className="cursor-pointer"
+          className="cursor-pointer hover:opacity-30"
         />
       ))}
     </div>
