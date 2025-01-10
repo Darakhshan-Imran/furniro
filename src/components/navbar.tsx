@@ -12,10 +12,6 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 
-
-
-
-
 const Navbar = () => {
   return (
     <header className="flex flex-col sm:flex-row items-center justify-between h-auto sm:h-[140px] bg-[#FFFFFF] mx-auto w-full p-5">
